@@ -78,7 +78,7 @@
 
 .text-overlay{
     margin: 70px auto;
-    background: #fff;
+    background: var(--txt-overlay-background);
     border-radius: 5px;
     text-align: center;
     margin: 2rem ;
