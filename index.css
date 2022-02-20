@@ -2,6 +2,7 @@
 
 @import "./Pages/HomePage/homepage.css";
 :root{
+    --txt-overlay-background:#fff;
     --violet:violet;
     --blueviolet:blueviolet;
     --black:black;
