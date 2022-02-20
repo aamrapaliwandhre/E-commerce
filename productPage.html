@@ -1,0 +1,296 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinestStitch</title>
+  <link rel="stylesheet" href="https://distracted-jones-2f14b5.netlify.app/index.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class=" logo">
+      <div class="nav-items-container">
+        <a class="nav-item " href="index.html"><span class="logo-font"></span>
+          <span class="UI-logo-font">FinestStitch</span></a>
+      </div>
+    </div>
+    <div class="topbarCenter">
+      <div class="searchbar">
+        <Search class="searchIcon" />
+        <input placeholder="Search " class="searchInput" />
+      </div>
+    </div>
+    <div class="wishlist-icon">
+      <a href="#"> <i class="fa fa-heart fa-2x nav-icon" aria-hidden="true"></i></a>
+    </div>
+    <div class="cart-icon ">
+      <a href="#">
+        <i class="fa  fa-shopping-cart fa-2x nav-icon" aria-hidden="true"></i></a>
+      <span class=" number-badge number-badge-large">10+</span>
+    </div>
+    <div class="profile-icon ">
+      <a href="#"><i class="fa fa-user  fa-2x nav-icon" aria-hidden="true"></i>
+    </div>
+  </nav>
+
+
+  <div class="two-section-layout">
+    <div class="menu-section">
+      <aside class="sidebar">
+        <div class="filters">
+          <p class="main-filter-heading">
+            FILTERS
+            <span class="filter-heading ">Reset</span>
+          </p>
+          <!-- sort price  -->
+          <div class="filter-type">
+            <p class="filter-heading">SORT BY</p>
+            <div class="margin-vertical-lg"></div>
+            <ul class="filter-subheading" type="none">
+              <li>
+                <input type="radio" name="sort-by" value="price-low-to-high" />
+                <label class="filter-subheading" for="price-high-to-low">Price low to high</label>
+              </li>
+              <li>
+                <input type="radio" name="sort-by" value="price-high-to-low" />
+                <label class="filter-subheading" for="price-high-to-low">Price high to low</label>
+              </li>
+            </ul>
+          </div>
+
+          <!--  Categories  -->
+          <div class="filter-type">
+            <p class="filter-heading">Categories</p>
+            <div class="margin-vertical-lg"></div>
+            <ul type="none">
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="skirt">Skirt</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="kurti">Kurti</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="Jeans">Jeans</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="tops">Tops</label>
+              </li>
+            </ul>
+          </div>
+          <!-- brand  -->
+          <div class="filter-type">
+            <p class="filter-heading">Brand</p>
+            <div class="margin-vertical-lg"></div>
+            <ul type="none">
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="Gucci">Gucci</i></label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="Prada">Prada</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="Levi's">Levi's</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="Mufti">Mufti</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label class="filter-subheading" for="Raymon">Raymond</label>
+              </li>
+            </ul>
+          </div>
+
+          <!--  Ratings   -->
+          <div class="filter-type">
+            <p class="filter-heading">Ratings</p>
+            <div class="margin-vertical-lg"></div>
+            <ul type="none">
+              <li>
+                <input type="checkbox" name="5-stars" />
+                <label class="filter-subheading" for="5-stars">5 <i class="fa fa-star"></i></label>
+              </li>
+              <li>
+                <input type="checkbox" name="4-stars" />
+                <label class="filter-subheading" for="4-stars">4 <i class="fa fa-star"></i></label>
+              </li>
+              <li>
+                <input type="checkbox" name="3-stars" />
+                <label class="filter-subheading" for="3-stars">3 <i class="fa fa-star"></i></label>
+              </li>
+              <li>
+                <input type="checkbox" name="2-stars" />
+                <label class="filter-subheading" for="2-stars">2 <i class="fa fa-star"></i></label>
+              </li>
+              <li>
+                <input type="checkbox" name="1-star" />
+                <label class="filter-subheading" for="1-star">1 <i class="fa fa-star"></i></label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <div class="content-section  ">
+      <div class=" main-wrapper">
+        <div class="card-r cardv ">
+          <div class="img-wrapper ">
+            <a href="#">
+              <i class="fa fa-heart fa-lg card-vertical-like-icon" aria-hidden="true"></i></a>
+            <img class="img-responsive img" src="./Assets/avatar1.png" alt="">
+          </div>
+          <div class="wrapper">
+            <div class="text-container">
+              <span class="product-name-text">
+                Men t-shirts
+              </span>
+              <div class="price">
+                <span class="price-font">&#8377;1000</span>
+                <span class=" strike-through discount-font">&#8377;500
+                </span>
+                <span class="discount-font discount-percent"> 50% off</span>
+              </div>
+            </div>
+            <div class="btn-container-v">
+              <button class="button button-primary">
+                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                Add to cart
+              </button>
+              <button class="button button-secondary">
+                Buy now
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cardv card-l card-r">
+          <div class="img-wrapper ">
+            <a href="#">
+              <i class="fa fa-heart fa-lg card-vertical-like-icon" aria-hidden="true"></i></a>
+            <img class="img-responsive img" src="./Assets/avatar1.png" alt="">
+          </div>
+          <div class="wrapper">
+            <div class="text-container">
+              <span class="product-name-text">
+                Men t-shirts
+              </span>
+              <div class="price">
+                <span class="price-font">&#8377;1000</span>
+                <span class=" strike-through discount-font">&#8377;500
+                </span>
+                <span class="discount-font discount-percent"> 50% off</span>
+              </div>
+            </div>
+            <div class="btn-container-v">
+              <button class="button button-primary">
+                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                Add to cart
+              </button>
+              <button class="button button-secondary">
+                Buy now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" main-wrapper">
+        <div class="card-r cardv ">
+          <div class="img-wrapper ">
+            <a href="#">
+              <i class="fa fa-heart fa-lg card-vertical-like-icon" aria-hidden="true"></i></a>
+            <img class="img-responsive img" src="./Assets/avatar1.png" alt="">
+          </div>
+          <div class="wrapper">
+            <div class="text-container">
+              <span class="product-name-text">
+                Men t-shirts
+              </span>
+              <div class="price">
+                <span class="price-font">&#8377;1000</span>
+                <span class=" strike-through discount-font">&#8377;500
+                </span>
+                <span class="discount-font discount-percent"> 50% off</span>
+              </div>
+            </div>
+            <div class="btn-container-v">
+              <button class="button button-primary">
+                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                Add to cart
+              </button>
+              <button class="button button-secondary">
+                Buy now
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cardv card-l card-r">
+          <div class="img-wrapper ">
+            <a href="#">
+              <i class="fa fa-heart fa-lg card-vertical-like-icon" aria-hidden="true"></i></a>
+            <img class="img-responsive img" src="./Assets/avatar1.png" alt="">
+          </div>
+          <div class="wrapper">
+            <div class="text-container">
+              <span class="product-name-text">
+                Men t-shirts
+              </span>
+              <div class="price">
+                <span class="price-font">&#8377;1000</span>
+                <span class=" strike-through discount-font">&#8377;500
+                </span>
+                <span class="discount-font discount-percent"> 50% off</span>
+              </div>
+            </div>
+            <div class="btn-container-v">
+              <button class="button button-primary">
+                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                Add to cart
+              </button>
+              <button class="button button-secondary">
+                Buy now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer-header">
+      All rights reserved. Copyright &copy; 2021 | Aamrapali Wandhre
+    </div>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">
+        <a class="git" href="https://github.com/aamrapaliwandhre"><i class="fab fa-github"></i></a>
+      </li>
+      <li class="list-item-inline">
+        <a class="git" href="https://twitter.com/rani_wandhre"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="list-item-inline">
+        <a class="git" href="https://www.linkedin.com/in/aamrapali-wandhre-158a36162/"><i
+            class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
