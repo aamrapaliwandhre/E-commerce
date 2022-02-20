@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import "./Pages/HomePage/homepage.css";
+:root{
+    --txt-overlay-background:#fff;
+    --violet:violet;
+    --blueviolet:blueviolet;
+    --black:black;
+    --white:white;
+    --wheat:wheat;
+    --light-violet:rgb(172, 129, 211);
+
+}
