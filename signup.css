@@ -2,10 +2,14 @@
     width: 40rem;
     height: 100%;
     border-color: var(--black);
-    border-width: 0.13rem;
+    border-width: 2.2px;
     display: flex;
    align-items: center;
 }
+.loginInput {
+    margin-bottom: 1rem;
+}
+
 .signInInput{
     margin-bottom: 0.5rem;
     height: 3rem;
@@ -13,4 +17,14 @@
 }
 .loginBox{
     height: auto;
+}
+
+.loginButton{
+    margin-bottom: 1rem;
+}
+.loginForgot{
+    margin-bottom: 1.1rem;
+}
+.loginWrapper{
+    height : 100%;
 }
