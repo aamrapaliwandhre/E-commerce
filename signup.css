@@ -2,7 +2,7 @@
     width: 40rem;
     height: 100%;
     border-color: var(--black);
-    border-width: 0.13rem;
+    border-width: 2.2px;
     display: flex;
    align-items: center;
 }
