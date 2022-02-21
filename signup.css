@@ -1,0 +1,16 @@
+.signup-Wrapper{
+    width: 40rem;
+    height: 100%;
+    border-color: var(--black);
+    border-width: 0.13rem;
+    display: flex;
+   align-items: center;
+}
+.signInInput{
+    margin-bottom: 0.5rem;
+    height: 3rem;
+
+}
+.loginBox{
+    height: auto;
+}
