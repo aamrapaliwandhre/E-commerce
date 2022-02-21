@@ -1,21 +1,13 @@
 @import "style.css";
 
-   .two-section-layout {
-    width:auto;
-    height: auto;
-    text-align:left;
-  }
   .menu-section {
-    width:20%;
+    width:fit-content;
     float:left;
     height:100%;
     background-color:var(--blueviolet);
+    padding-right: 2rem;
   }
-  .content-section {
-    width:100%;
-    height:auto;
-    background-color:var(--white);
-  }
+  
   .main-filter-heading{
     font-family: poppins;
     font-size: 1em;
@@ -51,9 +43,7 @@
     height: 100%;
       width: 500rem;
   }
-  .card-l{
-    margin-left: 10rem;
-  }
+  
   .img{
     height: 16rem;
   }
@@ -61,5 +51,26 @@
     background-color: var(--blueviolet);
   }
 
+  @media only screen and (max-width: 730px){
+    .main-wrapper{
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+  }
+  @media only screen and (max-width: 450px){
+    .main-wrapper{
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+  }
+  @media only screen and (max-width: 600px) { 
+  .main-wrapper{
+      flex-direction: column;
+      margin-left: 3rem;
+  }
+}
+  
+  
+  
 
 
