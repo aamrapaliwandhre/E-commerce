@@ -1,0 +1,42 @@
+.dropbtn {
+    color: var(--black);
+}
+.dropdown {
+    position: absolute;
+    right: 2.5rem;
+    margin-bottom: 3.2rem;
+    font-size: 1.3em;  
+    color: var(--white); 
+}
+.dropdown-content {
+    position: absolute;
+    background-color: var(--blueviolet);
+    border-radius: 0.2rem;
+    right: 0.03rem;
+    top: 3.2rem;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    display: none;
+    text-align: center;
+}
+.dropdown-content .a{
+    color: black;
+    color: var(--white); 
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content .a:hover {
+    background-color: var(--light-violet);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: var(--gray);
+}
+
+.loginWrapper{
+    width: 40rem;
+}
+
