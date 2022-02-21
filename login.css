@@ -1,5 +1,5 @@
 .dropbtn {
-    color: black;
+    color: var(--black);
 }
 .dropdown {
     position: absolute;
@@ -33,7 +33,7 @@
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: grey;
+    background-color: var(--gray);
 }
 
 .loginWrapper{
