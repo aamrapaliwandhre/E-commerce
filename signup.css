@@ -6,6 +6,10 @@
     display: flex;
    align-items: center;
 }
+.loginInput {
+    margin-bottom: 1rem;
+}
+
 .signInInput{
     margin-bottom: 0.5rem;
     height: 3rem;
@@ -13,4 +17,11 @@
 }
 .loginBox{
     height: auto;
+}
+
+.loginButton{
+    margin-bottom: 1rem;
+}
+.loginForgot{
+    margin-bottom: 1.1rem;
 }
