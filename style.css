@@ -5,6 +5,7 @@
 @import url("login.css");
 @import url("signup.css");
 @import url("wishlist.css");
+@import url("cart.css");
 :root{
     --txt-overlay-background:#fff;
     --violet:violet;
